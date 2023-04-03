@@ -1,0 +1,59 @@
+/* Reset default margin and padding */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Style de los Ttilo principal */
+header {
+	background-color: #1a1a1a;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+/* Style de los container */
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* Style de la imagen */
+.image {
+  
+  text-align: left;
+  position: static;
+	flex-basis: 45%;
+	margin-bottom: 20px;
+}
+
+/* Style de la description */
+.description {
+	flex-basis: 50%;
+}
+
+/* Style de los subtitulos */
+h2 {
+	font-size: 24px;
+	margin-top: 20px;
+}
+
+/* Style de los parrafos */
+p {
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+/* Style del pie de pagina */
+footer {
+	background-color: #1a1a1a;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
